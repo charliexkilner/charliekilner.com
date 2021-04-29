@@ -8,13 +8,113 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="w-screen bg-purple-100">
 
 
-    <div class="bg-black h-screen">
+    <!--
+        Price
+        Bedrooms
+        Students per kitchen - 5-
+        Area
+        Contract Length
+        Price per week
+        Total Price
+        Catering
+    -->
+    <div>
+        <h1 class="text-center text-4xl text-bold font-mono p-10">Loughborough Accommodation</h1>
+    </div>
 
-        <div class="text-left mb-4 ml-6">
-          <p class=" text-2xl font-semibold pt-5 text-white">Charlie Kilner</p>
+<div class="flex flex-col">
+    <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+      <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+        <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+          <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+              <tr>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Name
+                </th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                 Cost
+                </th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Contract Length
+                </th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Students per kitchen
+                  </th>
+              </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200">
+                <!-- FIRST-->
+              <tr>
+                <td class="px-6 py-4 whitespace-nowrap">
+                  <div class="flex items-center">
+                    <div class="">
+                      <div class="text-lg font-medium text-gray-900 ">
+                        Claudia Parsons
+                      </div>
+                      <div class="text-sm text-gray-500">
+                        Area: <b>Village</b>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap">
+                  <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                    £6,460.08
+                  </span><br>
+                  <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                    £157.5 per week
+                  </span>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                  41 week
+                </td>
+            </td>
+            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+              5-8
+            </td>
+              </tr>
+              <!-- SECOND-->
+              <tr>
+                <td class="px-6 py-4 whitespace-nowrap">
+                  <div class="flex items-center">
+                    <div class="">
+                      <div class="text-lg font-medium text-gray-900 ">
+                        Robert Bakewell
+                      </div>
+                      <div class="text-sm text-gray-500">
+                        Area: <b>Village</b>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap">
+                  <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                    £6,199.61
+                  </span><br>
+                  <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                    £151.2 per week
+                  </span>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                  41 week
+                </td>
+            </td>
+            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+              6 or 8
+            </td>
+              </tr>
+  
+              <!-- More people... -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
     
 </body>
 </html>
